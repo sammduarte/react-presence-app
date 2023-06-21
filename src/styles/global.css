@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Reseta o padrão de espaçamento, cada navegador tem o seu padrão */
+}
+
+/* Aplicando fonte personalizada. */
+body, input, button {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+    --webkit-font-smoothing: antialiased; /* Deixa os contornos da fonte mais suave */
+}
